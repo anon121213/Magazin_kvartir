@@ -37,10 +37,15 @@ header .header {
   align-items: center;
   justify-content: center;
   justify-content: space-between;
+  width: 100%;
+}
+header .header .logoImg {
+  width: 42.748px;
 }
 header .header .logo {
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 header .header .logo .left {
   display: flex;
@@ -68,6 +73,7 @@ header .header .logo .left .metri {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-left: 68px;
 }
 header .header .logo .left h1 {
   padding-bottom: 8px;
@@ -79,6 +85,7 @@ header .header .logo .left h1 {
 header .header .logo .right {
   float: right;
   display: flex;
+  margin-right: 38px;
 }
 header .header .logo .right .tel {
   display: flex;
@@ -117,14 +124,27 @@ header .header .logo .right .head_button .headButtonImg {
   margin-left: 11.12px;
 }
 header .header .head_list {
+  max-width: 1036px;
+  width: 100%;
+  justify-content: space-between;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 header .header .head_list .head_menu {
+  max-width: 1036px;
+  width: 100%;
+  justify-content: space-between;
   display: flex;
+  align-items: center;
 }
 header .header .head_list .head_menu li {
+  display: flex;
+  max-width: 1036px;
+  width: 100%;
+  justify-content: space-between;
+}
+header .header .head_list .head_menu li a {
   display: flex;
   color: var(--3, #FFF);
   font-family: "Montserrat";
@@ -133,25 +153,6 @@ header .header .head_list .head_menu li {
   line-height: 135%; /* 18.9px */
   letter-spacing: 0.42px;
   text-transform: uppercase;
-}
-header .header .head_list .head_menu li:first-child {
-  margin-left: 213px;
-  margin-right: 99px;
-}
-header .header .head_list .head_menu li:nth-child(1) {
-  margin-right: 99px;
-}
-header .header .head_list .head_menu li:nth-child(2) {
-  margin-right: 80px;
-}
-header .header .head_list .head_menu li:nth-child(3) {
-  margin-right: 91px;
-}
-header .header .head_list .head_menu li:nth-child(4) {
-  margin-right: 86px;
-}
-header .header .head_list .head_menu li:nth-child(5) {
-  margin-right: 86px;
 }
 
 .sec1 {
@@ -228,6 +229,10 @@ header .header .head_list .head_menu li:nth-child(5) {
   line-height: 135%; /* 37.8px */
   letter-spacing: 0.84px;
   text-transform: uppercase;
+}
+.sec1 .bg .squares {
+  display: flex;
+  justify-content: end;
 }
 .sec1 .bg .squares .square {
   width: 195px;

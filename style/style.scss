@@ -9,17 +9,25 @@
 header{
     display: flex;
     background-color: black;
+    
 
     .header{
         display: flex;
         align-items: center;
         justify-content: center;
         justify-content: space-between;
-        
+        width: 100%;
+
+        .logoImg{
+            width: 42.748px;
+        }
+
         .logo{
             display: flex;
             justify-content: space-between;
-  
+            width: 100%;
+
+            
 
             .left{
                 display: flex;
@@ -49,6 +57,7 @@ header{
                     flex-direction: column;
                     align-items: center;
                     justify-content: center;
+                    margin-left: 68px;
                 }
     
                 h1{
@@ -62,6 +71,7 @@ header{
             .right{
                 float: right;
                 display: flex;  
+                margin-right: 38px;
 
                 .tel{
                     display: flex;
@@ -108,49 +118,63 @@ header{
 
         .head_list{
 
+            max-width: 1036px;
+            width: 100%;
+            justify-content: space-between;
             display: flex;
             align-items: center;
             justify-content: center;
 
             .head_menu{
-                display: flex;
                 
+                max-width: 1036px;
+                width: 100%;
+                justify-content: space-between;
+                display: flex;
+                align-items: center;
+
                 li{     
-                    
-                    display: flex;        
-                    color: var(--3, #FFF);
-                    font-family: "Montserrat";
-                    font-size: 14px;
-                    font-weight: 500;
-                    line-height: 135%; /* 18.9px */
-                    letter-spacing: 0.42px;
-                    text-transform: uppercase;                  
+                    display: flex;
+                    max-width: 1036px;
+                    width: 100%;
+                    justify-content: space-between;
+
+                    a{
+                        display: flex;        
+                        color: var(--3, #FFF);
+                        font-family: "Montserrat";
+                        font-size: 14px;
+                        font-weight: 500;
+                        line-height: 135%; /* 18.9px */
+                        letter-spacing: 0.42px;
+                        text-transform: uppercase;  
+                    }                                   
                 }
 
-                li:first-child{
-                    margin-left: 213px;
-                    margin-right: 99px;
-                }
+                // li:first-child{
+                //     margin-left: 213px;
+                //     margin-right: 99px;
+                // }
 
-                li:nth-child(1){
-                    margin-right: 99px;
-                }
+                // li:nth-child(1){
+                //     margin-right: 99px;
+                // }
 
-                li:nth-child(2){
-                    margin-right: 80px;
-                }
+                // li:nth-child(2){
+                //     margin-right: 80px;
+                // }
 
-                li:nth-child(3){
-                    margin-right: 91px;
-                }
+                // li:nth-child(3){
+                //     margin-right: 91px;
+                // }
 
-                li:nth-child(4){
-                    margin-right: 86px;
-                }
+                // li:nth-child(4){
+                //     margin-right: 86px;
+                // }
 
-                li:nth-child(5){
-                    margin-right: 86px;
-                }
+                // li:nth-child(5){
+                //     margin-right: 86px;
+                // }
             }
         }
         
@@ -246,8 +270,12 @@ header{
         }
 
         .squares{
-            .square{
-                
+
+            
+            display: flex;
+            justify-content: end;
+
+            .square{                
                 width: 195px;
                 height: 193px;
                 flex-shrink: 0;
